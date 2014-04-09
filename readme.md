@@ -8,7 +8,7 @@ You'll need to add an .htaccess file to the project root.
 
 It should look something like this :
 
-
+```
 RewriteEngine On
 
 RewriteBase /
@@ -21,3 +21,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule .* index.php [L,QSA]
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+```
