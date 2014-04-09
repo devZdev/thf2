@@ -1,3 +1,3 @@
-## Teenok Heart Foundation - Getting Started
+## THF - Getting Started
 
 Place this project in your Apache Document Root
