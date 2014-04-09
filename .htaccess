@@ -1,3 +1,7 @@
+<if "%{HTTP_HOST} == 'www.teenokheartfoundation.com' || %{HTTP_HOST} == 'teenokheartfoundation.com'">
+    AddHandler x-httpd-php5-3 .php
+</if>
+
 # Enable rewrite engine and route requests to framework
 RewriteEngine On
 
