@@ -1,14 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="<?php echo $ENCODING; ?>" />
-		<title>Powered by <?php echo $PACKAGE; ?></title>
-		<base href="<?php echo $SCHEME.'://'.$HOST.':'.$PORT.$BASE.'/'; ?>" />
-		<link rel="stylesheet" href="ui/css/base.css" type="text/css" />
-		<link rel="stylesheet" href="ui/css/theme.css" type="text/css" />
-		<link rel="stylesheet" href="lib/code.css" type="text/css" />
-	</head>
-	<body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Teenok Heart Foundation - <?php echo $name; ?></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Teenok Heart Foundation" />
+	<meta name="keywords" content="Teenok Heart Foundation" />
+	<meta name="author" content="Teenok Heart Foundation" />
+	<link rel="shortcut icon" href="/ui/images/favicon.ico"/>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="/ui/css/blueprint/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/ui/css/blueprint/print.css" type="text/css" media="print" />
+	<!--[if lt IE 8]><link rel="stylesheet" href="/ui/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<!-- Import fancy-type plugin. -->
+	<link rel="stylesheet" href="/ui/css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/ui/css/thf_style.css" type="text/css"  />
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:light,regular,bold&amp;subset=latin' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css' />
+	
+	<?php 
+		if(isset($css)){
+			foreach($css as $sheet) {
+				echo '<link href="/ui/css/'. $sheet .'.css" media="screen" rel="stylesheet" type=
+		    "text/css" />';
+			} 
+		}
+	?>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<?php include 'includes/header_nav.php'; ?>
+
 		<?php echo $this->render(Base::instance()->get('content')); ?>
-	</body>
+					
+ 		<?php include 'includes/donate_link.php'; ?>
+		<?php include 'includes/footer_nav.php'; ?>
+		<?php include 'includes/facebook_link.php'; ?>
+
+
+	</div> <!-- End Container -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<?php 
+if(isset($js)){
+	foreach($js as $script) {
+		echo '<script type="text/javascript" src="/ui/js/' . $script . '.js"></script>';
+	} 
+}
+?>
+</body>
 </html>
