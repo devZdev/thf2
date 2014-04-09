@@ -9,14 +9,9 @@ You'll need to add an .htaccess file to the project root.
 It should look something like this :
 
 
-# Enable rewrite engine and route requests to framework
 RewriteEngine On
 
-# Some servers require you to specify the `RewriteBase` directive
-# In such cases, it should be the path (relative to the document root)
-# containing this .htaccess file
-#
-# RewriteBase /
+RewriteBase /
 
 RewriteCond %{REQUEST_URI} \.ini$
 RewriteRule \.ini$ - [R=404]
