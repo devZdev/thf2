@@ -22,3 +22,12 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule .* index.php [L,QSA]
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
 ```
+
+Lastly, create a file called `config.ini` add these debug settings:
+
+```
+[globals]
+
+DEBUG=3
+UI=ui/
+```
