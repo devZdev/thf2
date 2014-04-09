@@ -11,6 +11,6 @@
 		<area shape="poly" coords="470,22,670,22,670,36,470,36,470,22" href="/thebigheartracingteam" target="_self" title="Join The Big Heart Racing Team - Teenok Heart Foundation" alt="Join The Big Heart Racing Team - Teenok Heart Foundation" />
 		<area shape="poly" coords="290,22,445,22,445,36,290,36,290,22" href="/events" target="_self" title="Upcoming & Past Events - Teenok Heart Foundation" alt="Upcoming & Past Events - Teenok Heart Foundation" />
 		<area shape="poly" coords="170,22,267,22,267,36,170,36,170,22" href="/thefactsheet" target="_self" title="The Fact Sheet - Teenok Heart Foundation" alt="The Fact Sheet - Teenok Heart Foundation" />
-		<area shape="rect" coords="90,22,153,36" href="/aboutus" target="_self" title="About Us - Teenok Heart Foundation" alt="About Us - Teenok Heart Foundation" />
+		<area shape="rect" coords="90,22,153,36" href="/about" target="_self" title="About Us - Teenok Heart Foundation" alt="About Us - Teenok Heart Foundation" />
 	</map>
 </div>

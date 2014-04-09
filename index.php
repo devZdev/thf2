@@ -76,4 +76,20 @@ $f3->route('GET /thebigheartracingteam',
     }
 );
 
+$f3->route('GET /thefactsheet', 
+    function($f3) {
+        $f3->set('name', 'The Fact Sheet');
+        $f3->set('content','thefactsheet.htm');		
+		echo View::instance()->render('layout.htm');
+    }
+);
+
+$f3->route('GET /about', 
+    function($f3) {
+        $f3->set('name', 'About Us');
+        $f3->set('content','aboutus.htm');		
+		echo View::instance()->render('layout.htm');
+    }
+);
+
 $f3->run();
