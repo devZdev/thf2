@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$1" = "" ]; then
+	echo You must provide a tag version ie v1.0.0
+	exit
+fi
+cd html
+git pull
+git checkout $1
