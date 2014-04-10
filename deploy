@@ -3,7 +3,4 @@ if [ "$1" = "" ]; then
 	echo You must provide a tag version ie v1.0.0
 	exit
 fi
-cd html
-git checkout master
-git pull
-git checkout $1
+ssh -t teenokheart11@teenokheartfoundation.com "cd /html ; bash -s" < up_version $1
