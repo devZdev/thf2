@@ -19,7 +19,7 @@ th{text-align:left;text-transform:uppercase;color:#fff;background:#999}
 th a{color:#fff}
 pre{background:#efefef;padding:0.75em;border-radius:0.75em}
 p code,ul code{padding:0.125em 0.5em;border-radius:0.5em;white-space:nowrap}
-blockquote pre,blockquote code{color:#666;background:#fff}
+blockquote pre,blockquote code{color:#666;background:#fff;}
 code{background:#eee}
 .center{text-align:center}
 .right{text-align:right}
