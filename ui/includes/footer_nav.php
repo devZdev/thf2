@@ -11,4 +11,4 @@
         <a href="https://www.registrationfactory.com/v3/?EventUUID=33E73774" target="_blank">Donate<span class="space"> </span><span class="space"> </span><span class="pink2">•</span><span class="space"> </span>
         <a href="./sponsors.php">Sponsors</a>
 	</div>
-</div>	
+</div>
