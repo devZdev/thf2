@@ -2,7 +2,7 @@
     <nav>
         <ul>
             <li><a href="./about">About Us</a></li>
-            <li><a href="./thefactsheet">The Fact Sheet</a></li>
+            <li><a href="./thefactsheet">THF Fact Sheet</a></li>
             <li><a href="./events">Upcoming &amp; Past Events</a></li>
             <li><a href="./thebigheartracingteam">Join the Big Heart Racing Team</a></li>
             <li><a href="http://us2.campaign-archive.com/?u=1276e256581844a1302fc3d8e&id=fdce744058&e=/" target="_blank">News</a></li>
