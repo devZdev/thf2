@@ -1,3 +1,51 @@
+$pink: #9e2b35;
+$grey: #c5c5c5;
+
+
+
+
+/*------------------------------Homemade CSS-------------------------------------------*/
+header {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 100px;
+    //position: relative;
+    padding: 5px;
+    font-size: 12px;
+    
+    
+    ul {
+        width: 650px;
+        height: 70px;
+        margin: 15px 0px 12px -5px;
+        padding: 0px;
+        float: left;
+        
+        li {
+            color: white;
+            text-transform: uppercase;
+            margin: 5px 10px 5px 15px;
+            float: left;
+        &:first-child {list-style:none;}
+        &:nth-child(5) {list-style:none;}
+            a {
+                color: $pink;
+                text-decoration: none;
+            &:hover {color: $grey;}
+            }
+        } //li
+    } //ul
+} //header
+
+.facebook_head {
+    
+    float: right;
+    margin-top: 28px;
+    
+}
+
 /* CSS Document */
 
 body {
@@ -5,25 +53,6 @@ body {
 	background-repeat: repeat-x;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
-}
-
-
-
-a:link {
-	color: #9f9f9f;
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-	color: #9f4850;
-}
-a:hover {
-	text-decoration: none;
-	color: #c5c5c5;
-}
-a:active {
-	text-decoration: none;
-	color: #9f9f9f;
 }
 
 
