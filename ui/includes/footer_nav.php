@@ -1,14 +1,18 @@
-<div class="span-16 last">
-	<div class="botlinks">
-        <a href="./about" target="_self">About Us</a><span class="space"> </span><span class="pink2">•</span><span class="space"> </span>
-        <a href="./thefactsheet" target="_self">THF Fact Sheet</a><span class="space"> </span><span class="pink2">•</span><span class="space"> </span>
-        <a href="./events" target="_self">Upcoming &amp; Past Events</a><span class="space"> </span><span class="pink2">•</span><span class="space"> </span>
-        <a href="./thebigheartracingteam" target="_self">Join the Big Heart Racing Team<br>
-        <a href="http://us2.campaign-archive.com/?u=1276e256581844a1302fc3d8e&id=fdce744058&e=/" target="_blank">News</a><span class="space"> </span><span class="pink2">•</span><span class="space"> </span>
-        <a href="./donations" target="_self">THF Donations At Work<span class="space"> </span><span class="pink2">•</span><span class="space"> </span>
-        <a href="./press" target="_self">Press<span class="space"> </span><span class="pink2">•</span><span class="space"> </span>
-        <a href="./contact" target="_self">Contact us<span class="space"> </span><span class="pink2">•</span><span class="space"> </span>
-        <a href="https://www.registrationfactory.com/v3/?EventUUID=33E73774" target="_blank">Donate<span class="space"> </span><span class="space"> </span><span class="pink2">•</span><span class="space"> </span>
-        <a href="./sponsors">Sponsors</a>
-	</div>
-</div>
+<footer>
+    <span class="facebook_foot"><a href="http://www.facebook.com/pages/Teenok-Heart-Foundation/140567699332485" target="_blank"><img src="/ui/images/thf_fb.jpg" alt="Find us on Facebook"></a></span>
+    <nav>
+        <ul>
+            <li><a href="./about">About Us</a></li>
+            <li><a href="./thefactsheet">THF Fact Sheet</a></li>
+            <li><a href="./events">Upcoming &amp; Past Events</a></li>
+            <li><a href="./thebigheartracingteam">Join the Big Heart Racing Team</a></li>
+            <li><a href="http://us2.campaign-archive.com/?u=1276e256581844a1302fc3d8e&amp;id=fdce744058&amp;e=/" target="_blank">News</a></li>
+            <li><a href="./donations">THF Donations At Work</a></li>
+            <li><a href="./press">Press</a></li>
+            <li><a href="./contact">Contact us</a></li>
+            <li><a href="https://www.registrationfactory.com/v3/?EventUUID=33E73774" target="_blank">Donate</a></li>
+            <li><a href="./sponsors">Sponsors</a></li>
+        </ul>
+    </nav>
+    <span class="donate_here"><a href="https://www.registrationfactory.com/v3/?EventUUID=33E73774" target="_blank"><img src="/ui/images/thf_donate.jpg" alt="Donate Here"></a></span>
+</footer>
