@@ -6,6 +6,7 @@ $grey: #c5c5c5;
 
 /*------------------------------Homemade CSS-------------------------------------------*/
 header {
+	
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -37,14 +38,78 @@ header {
             }
         } //li
     } //ul
+
+	.facebook_head {
+	    float: right;
+	    margin-top: 28px;
+	}
 } //header
 
-.facebook_head {
-    
-    float: right;
-    margin-top: 28px;
-    
-}
+
+footer {
+
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 100px;
+    padding: 0px;
+    font-size: .9em;
+
+    ul {
+	    width: 465px;
+	    height: 100px;
+	    margin: 0px;
+	    padding: 0px;
+	    float: left;
+	    text-align: center;
+	    box-sizing: border-box;
+
+	    li {
+		    color: #9e2b35;
+		    text-transform: uppercase;
+		    margin: 10px 10px 5px 10px;
+		    float: left;
+
+		&:first-child {
+		    list-style: none;
+		    margin-left: 15%;
+		} //1st child
+
+		&:nth-child(4) {
+		    list-style: none;
+		    margin-left: 8%;
+		} //4th child
+
+		&:nth-child(7) {
+		    list-style: none;
+		    margin-left: 20%;
+		} //7th child
+
+			a {
+			    color: #343434;
+			    text-decoration: none;
+
+		    &:hover {
+			    color: #9e2b35;
+			} //a:hover
+
+			} //a
+
+		} //li
+
+	} //ul
+
+	.facebook_foot {
+	    float: left;
+	    margin-top: 28px;
+	}
+	.donate_here {
+	    float: right;
+	    margin-top: 5px;
+	}
+} //footer
+
 
 /* CSS Document */
 

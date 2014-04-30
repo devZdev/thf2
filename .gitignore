@@ -2,3 +2,4 @@
 config.ini
 /tgz
 .sass-cache
+*.sublime*
