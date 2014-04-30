@@ -3,3 +3,4 @@ config.ini
 /tgz
 .sass-cache
 *.sublime*
+.DS_Store
