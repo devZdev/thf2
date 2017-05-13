@@ -10,9 +10,9 @@
             <li><a href="./donations">THF Donations At Work</a></li>
             <li><a href="./press">Press</a></li>
             <li><a href="./contact">Contact us</a></li>
-            <li><a href="https://www.registrationfactory.com/v3/?EventUUID=33E73774" target="_blank">Donate</a></li>
+            <li><a href="http://www.unitedcharitable.org/program-daf/teenok-heart-foundation" target="_blank">Donate</a></li>
             <li><a href="./sponsors">Sponsors</a></li>
         </ul>
     </nav>
-    <span class="donate_here"><a href="https://www.registrationfactory.com/v3/?EventUUID=33E73774" target="_blank"><img src="/ui/images/thf_donate.jpg" alt="Donate Here"></a></span>
+    <span class="donate_here"><a href="http://www.unitedcharitable.org/program-daf/teenok-heart-foundation" target="_blank"><img src="/ui/images/thf_donate.jpg" alt="Donate Here"></a></span>
 </footer>
