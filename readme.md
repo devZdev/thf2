@@ -1,46 +1,31 @@
 ## THF - Getting Started
 
-Place this project in your Apache Document Root
+Setting up Apache, virtual hosts, and PHP for MacOS Sierra
 
-<a href="http://fatfreeframework.com/api-reference">API Docs for F3 PHP Framework</a>
+<a href="https://medium.com/@JohnFoderaro/how-to-set-up-apache-in-macos-sierra-10-12-bca5a5dfffba">Helpful Article</a>
 
-Apache config (assuming your DocumentRoot is /var/www/html):
-
-```
-DocumentRoot "/var/www/html"
-<Directory "/var/www/html">
-    Options -Indexes +FollowSymLinks +Includes
-    AllowOverride All
-    Order allow,deny
-    Allow from All
-</Directory>
+Additional `httpd-vhost.conf` configuration
 
 ```
-
-You'll need to add an `.htaccess` file to the project root.
-
-It should look something like this :
-
-```
-RewriteEngine On
-
-RewriteBase /
-
-RewriteCond %{REQUEST_URI} \.ini$
-RewriteRule \.ini$ - [R=404]
-
-RewriteCond %{REQUEST_FILENAME} !-l
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule .* index.php [L,QSA]
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+<VirtualHost *:80>
+...
+  <Directory "/Users/[USERNAME]/Sites/[REPO]">
+      Options -Indexes +FollowSymLinks +Includes
+      AllowOverride All
+      Order allow,deny
+      Allow from All
+  </Directory>
+...
+</VirtualHost>
 ```
 
-Lastly, create a file called `config.ini` add these debug settings:
+In the top level of your repo:
 
-```
-[globals]
+1. Add `.htaccess` file. There is a copy in this repo called `.httaccess.local-backup`. From the command line run: `cp .httaccess.local-backup .httaccess`
 
-DEBUG=3
-UI=ui/
-```
+2. Add `config.ini` file for debugging locally, There is a copy in this repo called `config.ini.local-backup`. From the command line run `cp config.ini.local-backup config.ini`
+
+These files were purposely left out of version control becuase we don't want them being committed and deployed to production while we construct our development and staging environments.
+
+This site was built using the <a href="http://fatfreeframework.com/api-reference">F3 PHP Framework</a>
+
